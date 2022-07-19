@@ -1,0 +1,10 @@
+
+code for "Zhen-Zhen Xue, Cheng Li, Zhuo-Ming Luo, Shan-Shan Wang and Ying-Ying Xu, Automated classification of protein expression levels in immunohistochemistry images to improve the detection of cancer biomarkers"
+Contact: Ying-Ying Xu, yyxu@smu.edu.cn 2022/07/18
+
+
+This code is divided into two parts: image patch parameter confirmation and protein expression level classification
+
+1、The image patch parameter determination part of the code is under the patch parameter folder, first run the main.m file, extract the image patch and calculate the protein expression fraction value, then run the patchHML.m and PE.m files in turn, and finally calculate the Wasserstein distance through WassersteinDist.py. 
+
+2、After the first step is completed, run the processDataMain.m file
